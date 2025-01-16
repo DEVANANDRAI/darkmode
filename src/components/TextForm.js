@@ -1,6 +1,6 @@
 export default function TextForm(props) {  
   return (
-    <div className='mx-3 mt-3'>
+    <div className=' row mx-3 mt-3'>
         <textarea className="form-control" style={props.textRes[4]} id="exampleFormControlTextarea1" onChange={props.textRes[1]} value={props.textRes[5]} rows="10"></textarea>
         <div className="row text-center mt-3">
             <div className="col-sm-2">
